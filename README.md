@@ -39,7 +39,7 @@ city-mobility-score/
 - **Notebook**: `02_modeling.ipynb`
 - Built a single `mobility_score` (0-100) using PCA on 7 core accessibility signals (dining/hotel/attraction access, transit, toilets, street paving, street smoothness).
 - Trained a Random Forest to predict that score using 4 *different* secondary features (parking, healthcare, essential shops, benches) — deliberately separate from the features that built the score, so the model is actually being tested on something meaningful and handing down the score.
-- Clustered cities into 5 "mobility archetypes" based on those same 4 secondary features.
+- Clustered cities into 5 "mobility archetypes" based on those same 4 secondary features using K-Means which won against Hierarchial (Ward) clustering with k=5. K-means gives better 2 out of 3 validity metrics (Silhoutte and Davies-Bouldin), though Clainski-Harabasz find 2-cluster split giving better score.
 
 #### Results & Observation
 
