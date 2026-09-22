@@ -2,7 +2,7 @@
 Scoring a city on how easy it is to navigate and how accessible the city is for a disabled traveler. We use amenity density, accessibility tags and street-level mobility data pulled live form OpenStreetMap (via Geoapify). Build a model that predicts this score from a secondary infrastructure alone, and clustered cities by infrastructure type.
 
 ## Links
-[Live Web App]
+[Live Web App](https://mobility-index-vtmfvggppevqhkkkp3yibd.streamlit.app/)
 
 ## Objective
 When someone with a disability is planning to travel there is no one way to find out how accessible the city can be before actually visiting it. This project aims to scores cities on accessibility (How easy it is find basic amenities like healthcare, essentials, hotels, restaurant and how accessible are they) and mobility(How easy it is navigate and walk around the city with shops, bench, parking availability, street smoothness).
